@@ -34,7 +34,7 @@ def cd2d_test_data_internal():
 
     boundary_conditions = {
         1000: "dirichlet",
-        1001: "dirichlet",
+        1001: "neumann",
         1002: "dirichlet",
         1003: "dirichlet",
     }
